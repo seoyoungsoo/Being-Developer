@@ -4,14 +4,14 @@
 
 ### URI는 로케이터(locater), 이름(name) 또는 둘 다 추가로 분류될 수 있다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64a56972-4fe8-4bc2-a1c3-803b7265690e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64a56972-4fe8-4bc2-a1c3-803b7265690e/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/58387974/127986267-ffe9a8a5-7a76-4864-8013-681217adb3ab.png)
 
 - URL - Resource Locator
 - URN - Resource Name
 
 ### URL과 URN 예시
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78656be7-07f9-40a9-9ad3-c242ccce8344/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78656be7-07f9-40a9-9ad3-c242ccce8344/Untitled.png)
+![Untitled (1)](https://user-images.githubusercontent.com/58387974/127986275-43bd6871-f411-4c23-8a7a-118f8be3f8c6.png)
 
 ## URI
 
@@ -60,24 +60,24 @@
 
 # 웹 브라우저 요청 흐름
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64a56972-4fe8-4bc2-a1c3-803b7265690e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64a56972-4fe8-4bc2-a1c3-803b7265690e/Untitled.png)
+![Untitled (2)](https://user-images.githubusercontent.com/58387974/127986287-176bcee9-c9cc-4ab9-817d-e30af58a73b0.png)
 
 1. DNS 서버를 조회하여 IP와 PORT 정보를 찾음
 2. IP, PORT 정보를 통해 HTTP 요청 메시지를 생성함
 
 ## HTTP 요청 메시지
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/744b1236-6c1a-4a24-a307-223b47976fcb/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/744b1236-6c1a-4a24-a307-223b47976fcb/Untitled.png)
+![Untitled (3)](https://user-images.githubusercontent.com/58387974/127986290-2b5be96d-814a-44e4-9339-f6c4e42d4c81.png)
 
 ## HTTP 메시지 전송
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d71d0ff5-c283-4ce2-9942-1bb1b4b458de/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d71d0ff5-c283-4ce2-9942-1bb1b4b458de/Untitled.png)
+![Untitled (4)](https://user-images.githubusercontent.com/58387974/127986295-e0d564e3-9c71-4018-b24f-fc3f5484db5a.png)
 
 TCP/IP 패킷에는 HTTP 요청 메시지가 포함되어 있다.
 
 ## HTTP 응답 메시지
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/474ebe42-96aa-4040-b15b-845c329dcf51/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/474ebe42-96aa-4040-b15b-845c329dcf51/Untitled.png)
+![Untitled (5)](https://user-images.githubusercontent.com/58387974/127986301-07cce598-6622-4388-b226-ddbd6abace36.png)
 
 요청한 패킷이 호스트에 도착하면 호스트는 위의 HTTP 응답 메시지를 생성한다.
 
