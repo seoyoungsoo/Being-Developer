@@ -66,7 +66,7 @@ function info(x) {
 const Eddy = new info('kind');
 console.log(Eddy.x); // kind
 
-cosole.log(Eddy.prototype.x); // syntax error
+console.log(Eddy.prototype.x); // syntax error
 ```
 
 Eddy라는 객체는 info라는 원형을 이용하여 함수객체를 통해 만들어진 Object 단일 객체일 뿐이다.
